@@ -1,207 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-       <title>Document</title>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <title>Dashboard</title>
+          <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-       <div class="header">
-              <div class="head">
-                     <a href="https://www.paystack.com/terminal/"><img src="download.jfif"  class="logo"></a>
-             
-               <ul>
-                     <li><a href="">Why Paystack<i class="fa-sharp fa-solid fa-angle-down"></i></a></li>
-                     <li><a href="">Customer</a></li>
-                     <li><a href="">Pricing</a></li>
-                     <li><a href="">Learn</a></li>
-              </ul>
+       <div class="head">
+          <div class="navbar">
+                    <img src="ps.jpg" class="logo">
 
-              <ul class="nav">
-                     <li><a href="">Delopers <i class="fa-sharp fa-solid fa-angle-down"></i></a></li>
-                     <li><a href="">Support <i class="fa-sharp fa-solid fa-angle-down"></i></a></li>
-                     <li><a href="">Login</a></li>
-                     <button class="btn">Create free account</button>
-               </ul>
-              
-              </div>
+          <ul id="menu">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Other</a></li>
+          </ul>
 
-              <div class="content">
-                     <div class="content-2">
-                            
-                            <h2> Modern online and offline <br> payments for Africa</h2>
-                            <p>Paystack helps businesses in Africa get paid by anyone, <br>anywhere in the world</p>
-                            <button>Create a free account</button>
-                            <a href="">or Contact Sales</a>
-                     </div>
-               </div>
+          <div class="menu">
+                    <i class="fa-solid fa-bars" onclick="togglemenu( )"></i>
+          </div>
 
+          </div>
 
-               <div class="trusted">
-                     <div class="col-1">
-                            <p>Trusted by over 200,000 businesses</p>
-                            <div class="col-3">
-
-                                   <a href=""><i class="fa-brands fa-meta"></i></a>
-                                   <a href=""><i class="fa-brands fa-apple"></i></a>
-                                   <a href=""><i class="fa-brands fa-btc"></i></a>
-                                  <a href=""><i class="fa-brands fa-amazon"></i></a>
-                                   
-
-                            </div>
-
-                     </div>
-              </div>
-       
-       
-       </div>
-
-
-
-       <!---------feature--------->
-       
-        <div class="feature">
-              <div class="row-1">
-              <h2>Simple, easy payments</h2>
-              <p>Building a business is hard. Getting paid shouldn't be.</p>
-              <img autoplay src="https://assets.paystack.com/assets/img/content/Collect-Payments-for-Multiple-Channels-1.1.gif" class="logo-1"></img>
-              </div>
-
-
-              <div class="row-2">
-                     <h3>Delight customers with a <br>seamless payments <br>experience</h3>
-
-                     <p>Give your customers the gift of modern,frictionless,
-                     <br>painless payments. Integrate Paystack once and let 
-                     your <br> customers pay you however they want.</p>
-
-                     <ul class="u-list u-list--green u-flex-child">
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Card </li>      
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Bank Account</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Bank Transfer</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>USSD</li>
-                        </ul>
-
-                         <h4>Enjoy phenomenal <br>transaction success rates</h4>
-                         <p>We automatically route payments through the most <br> optimal channels, ensuring the highest transaction <br>success rates in the market.</p>
+          <div class="content">
+                <div class="row-1">    
+                    <h2>PS4 V2 <br> Dualshock 4</h2>
+                    <h3>Wireless Controllers For PlayStation 4</h3>
+                    <h4>$34.5</h4>
+                    <button>Buy Now</button>
+                    </div> 
+                    <div class="row-2">
+                              <img src="pad.jpg" class="pad">
                      </div>
 
-            </div>
+          </div>
 
+          <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+          </div>
+
+
+
+          </div>
+
+          <script>
+                    var menu = document.getElementById("menu");
+
+                    menu.style.maxHeight = "0px";
+
+                    function togglemenu(){
+                           if(menu.style.maxHeight ==  "0px") 
+                           {
+                              menu.style.maxHeight ="130px"
+                           }  
+                           else 
+                           {
+                              menu.style.maxHeight ="0px"
+                           }
+                    }
+          </script>
+        
+                   
            
-            <div class="text">
-              <div class="text-head">
-                     <h2>Build custom payments <br> experiences with well- <br>documented APIs</h2>
-                     <p>Developers love our thorough, well-documented APIs <br>that let you to build everything from simple weekend <br>projects, to complex financial products serving hundreds <br>of thousands of customers. If you can imagine it, you can <br> build it with Paystack.</p>
-
-
-                     <u class="u-text">
-                            
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Collect one-time and recurring payments from your app <br> or website</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Make instant transfers</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Retrieve all your transaction and customer data</li>
-                            <li><i class="fa-solid fa-circle-check" style="color: #10ea8b;"></i>Verify the identity of customers</li>
-                     </u>
-              </div>
-
-              <div class="text-head1">
-                     <img src="pic.jpg" class="pic">
-              </div>
           
-       </div>
-
-
-
-       <div class="Support">
-              <div class="Support-1">
-                     <h2>Powering growth for amazing <br> businesses</h2>
-                     <p>Paystack is a growth engine for a new generation of innovative, <br> forward-looking organizations operating in Africa.</p>
-              </div>
-              
-        <div class="c-logo-row">
-              <div><img src="boit.jpg" class="c-log"></div>
-              <div><img src="kuda.jpg" class="c-logo"></div>
-              <div><img src="vest.jpg" class="c-lo"></div>
-              
-       </div>
-
-               </div>
-               
-
-              
-              
-              <section class="sec">
-                      <div class="sec-1">
-                            <h2>Backed by strong global <br>partners</h2>
-                            <p>Paystack is backed by notable investors as well as some of the best <br> payments companies on the planet.</p>
-                     </div>
-              </section>
-                     
-              <div class="testimonial-row">
-                     <div class="testimonial">
-                       <img src="ceo2.jpg" alt="Testimonial 1">
-                       <p>Paystack is highly technical and fanatically customer oriented. We’re excited to back such people in one of the world’s fastest-growing regions.</p>
-                       <cite>John Doe</cite>
-                     </div>
-                     <div class="testimonial">
-                       <img src="ceo.jpg" alt="Testimonial 2">
-                       <p>Our investment in Paystack aligns with the kind of investments we look for - those that will help extend our reach into the global commerce ecosystem.</p>
-                       <cite>Jane Smith</cite>
-                     </div>
-                     <div class="testimonial">
-                       <img src="visa.jpg" alt="Testimonial 3">
-                       <p>As YC's first Nigerian startup Paystack leads the charge of great companies coming out of Africa, powering modern payments for an entire continent.</p>
-                       <cite>Robert Johnson</cite>
-                     </div>
-                   </div>
-
-
-                   <div class="end">
-                     <div class="end-1">
-                     <p>Try Paystack Now</p>
-                     <h2>Start accepting payments in <br> just 30 minutes</h2> </div>
-
-                            <div class="end-3">
-                                   <ul class="end-4">
-                                          <li><a href="#">Create a free account</a></li>
-                                   </ul>
-                                   
-                            </div>
-
-                   </div>
-                   
-                   
-
-            
-
-                          
-       
-
-
-
-
-
-
-
-
-
-
-
-         
-
-
-                
-                          
-                     
-
-
-       
-
-          
-
-
-
 </body>
 </html>
