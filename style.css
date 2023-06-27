@@ -1,0 +1,426 @@
+*{
+          padding: 0%;
+          margin: 0%;
+          font-family: sans-serif;
+}
+
+.header{
+          width: 100%;
+          min-height: 100vh;
+          overflow: hidden;
+          box-sizing: border-box;
+          
+          
+}
+
+.head{
+          text-align: center;
+          display:flex;
+          width: 100%;
+          justify-content: space-between
+}
+
+.logo{
+          width: 120px;
+          margin: 30px;
+          cursor: pointer;
+          
+}
+
+ul{
+          text-align: left;
+          flex: 1;
+          
+}
+
+.head ul li{
+          display: inline-block;
+          padding: 10px;
+          padding-top: 33px;
+          list-style: none;
+}
+
+.head ul li a{
+          font-size: 17px;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+}
+
+.nav{
+          padding-left: 130px;
+}
+
+.head a:hover{
+          color: aqua;
+}
+
+.btn{
+          border: 0px;
+          font-weight: bold;
+          padding: 12px 10px;
+          outline: none;
+          background: green; 
+          color: white;
+          cursor: pointer;
+          border-radius: 6px;
+          transition: transfrom 0.3s ease 0s;
+}
+
+.btn:hover{
+          transform: translateY(-5px);
+}
+
+.content{
+          margin:90px 0px;
+          padding: 30px;
+}
+
+.content-2 h2{
+          font-size: 50px;
+          font-weight: bold;
+          padding-bottom: 20px;
+          color: #011b33;;
+}
+
+.content-2 p{
+          font-size: 20px;
+          padding-bottom: 20px;
+}
+
+.content-2 button{
+          border: 0px;
+          padding: 15px 11px;
+          background: green;
+          border-radius: 6px;
+          color: white;
+          font-size: 19px;
+          cursor: pointer;
+           
+}
+
+.content-2 a{
+          text-decoration: none;
+          padding: 10px;
+          color: green;
+}
+
+
+.trusted{
+          padding: 30px;
+          margin: 50px 0px;
+}
+
+.col-1 p{
+          font-weight: bold;
+          margin-bottom: 1px;
+          color: black;
+          margin-bottom: 10px;
+}
+
+.col-3 a{
+          padding: 20px;
+          font-size: 50px;
+          color: black;
+}
+
+
+
+.col-3 i:hover{
+          color: azure;
+          background: green;
+}
+
+
+
+.feature{
+
+          margin: 40px 0px;
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+          
+
+}
+
+.row-1{
+          position: relative;
+          flex-basis: 40%;
+          margin-left: 50px;
+          
+}
+
+.row-1 h2{
+          font-size: 45px;
+          padding-bottom: 10px;
+          font-weight: bold;
+          color: #011b33;
+
+}
+
+.row-1 p{
+          font-size: 20px;
+          padding-bottom: 60px;
+          
+}
+
+.logo-1{
+          width: 90%;
+          height: 100%;
+          flex-basis: 90%;
+          overflow: auto;
+          
+}
+
+
+
+.row-2{
+          position: relative;
+          align-items: center;
+          margin-top: 109px;
+}
+
+
+.row-2 h3{
+          font-size: 38px;
+          padding-bottom: 26px;
+          margin: 0 29px;
+          padding-right: 66px;
+          color: #011b33;
+          
+
+}
+
+.row-2 p{
+          font-size: 19px;
+          margin: 0 29px;
+          padding-bottom: 35px;
+          
+}
+
+
+ul .u-list .u-list--green .u-flex-child{
+          text-decoration: none;
+          display: flex;
+          position: relative;
+}
+
+ul li{
+          text-decoration: none;
+          list-style: none;
+          padding: 0 29px;
+          padding-bottom: 26px;
+          
+}
+
+.row-2 h4{
+          font-size: 30px;
+          padding-bottom: 21px;
+          margin: 0 29px;
+          padding-right: 60px;
+          color: #011b33;;
+}
+
+
+.text{
+          margin: 90px 0;
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+          
+}
+
+.text-head{
+          position: relative;
+          flex-basis: 40%;
+          margin-left: 50px;
+          
+}
+
+.text-head h2{
+          font-size: 35px;
+        font-weight: bold;
+        padding-bottom: 19px;
+        color: #011b33;;
+}
+
+.text-head p{
+          font-size: 18px;
+          
+}
+
+
+.u-text{
+          margin: 0px 30px;
+          text-decoration: none;
+          
+}
+
+.u-text li{
+          list-style: none;
+          text-decoration: none;
+          padding: 10px;
+          
+}
+
+.text-head1{
+          position: relative;
+          flex-basis: 50%;
+          display: flex;
+          align-items: center;
+}
+
+.text-head1 .pic{
+          width: 70%;
+
+}
+
+
+.Support{
+          padding: 10px 4%;
+          
+          
+
+}
+
+.Support-1 h2{
+          font-size: 35px;
+          color: #011b33;
+          padding-bottom: 10px;
+}
+
+.Support-1 p{
+          font-size: 19px;
+}
+
+.c-logo-row{
+          display: flex;
+          text-align: center;
+          
+          
+}
+
+.c-logo{
+          width: 46%;
+          margin: 50px;
+          padding-bottom: 0px;
+          
+}
+
+.sec{
+          
+          padding: 30px 4%;
+          
+}
+
+.sec-1 h2{
+          font-size: 38px;
+          padding-bottom: 17px;
+          color: #011b33;
+}
+.sec-1 p{
+          font-size: 18px;
+          padding-bottom: 0px;
+}
+
+
+.product{
+          padding-top: 100px;
+          display: flex;
+          transition: transform 0.5s;
+}
+
+
+
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-row {
+  
+  display: flex;
+}
+
+.testimonial {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial img {
+  max-width: 100px;
+  border-radius: 50%;
+  
+}
+
+.testimonial p {
+  margin-top: 10px;
+}
+
+.testimonial cite {
+  font-style: italic;
+  color: #888;
+}
+
+.testimonial:hover {
+  background-color: #ddd;
+}
+
+
+.end{
+  margin: 40px 0px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.end-1{
+  position: relative;
+  margin-left: 30px;
+}
+
+
+.end-1 p{
+  font-size: 24px;
+}
+
+.end-1 h2{
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.end-3{
+  position: relative;
+  align-items: center;
+  margin-top: 100px;
+  
+}
+
+.end-4{
+  padding: 10% 50px;
+}
+
+
+.end-4 li{
+  font-size: 19px;
+  border: 1px;
+}
+
+.end-4 a{
+  border: 0px;
+          
+          padding: 12px 10px;
+          outline: none;
+          background: green; 
+          color: white;
+          cursor: pointer;
+          border-radius: 6px;
+          transition: transfrom 0.3s ease 0s;
+          text-decoration: none;
+}
+
+.end-4 li:hover{
+  transform: translateY(-5px);
+  
+}
